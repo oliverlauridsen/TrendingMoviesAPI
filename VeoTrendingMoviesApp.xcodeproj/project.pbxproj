@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		98B9C0B928E5C93E007FC2CD /* VeoTrendingMoviesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B9C0B828E5C93E007FC2CD /* VeoTrendingMoviesAppApp.swift */; };
-		98B9C0BB28E5C93E007FC2CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B9C0BA28E5C93E007FC2CD /* ContentView.swift */; };
 		98B9C0BD28E5C940007FC2CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B9C0BC28E5C940007FC2CD /* Assets.xcassets */; };
 		98B9C0C028E5C940007FC2CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B9C0BF28E5C940007FC2CD /* Preview Assets.xcassets */; };
+		98B9C0C928E5D1E9007FC2CD /* TrendingMoviesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B9C0C828E5D1E9007FC2CD /* TrendingMoviesResponse.swift */; };
+		98B9C0CB28E5D224007FC2CD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B9C0CA28E5D224007FC2CD /* HomeView.swift */; };
+		98B9C0D028E5D27E007FC2CD /* TrendingMoviesEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B9C0CF28E5D27E007FC2CD /* TrendingMoviesEndpoint.swift */; };
+		98B9C0D328E5D2BB007FC2CD /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B9C0D228E5D2BB007FC2CD /* APIError.swift */; };
+		98B9C0D628E5D2E6007FC2CD /* TrendingMoviesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B9C0D528E5D2E6007FC2CD /* TrendingMoviesService.swift */; };
+		98B9C0D928E5D318007FC2CD /* ResultState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B9C0D828E5D318007FC2CD /* ResultState.swift */; };
+		98B9C0DC28E5D617007FC2CD /* TrendingMoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B9C0DB28E5D617007FC2CD /* TrendingMoviesViewModel.swift */; };
+		98B9C0DE28E5E094007FC2CD /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B9C0DD28E5E094007FC2CD /* MoviesView.swift */; };
+		98B9C0E028E5E0A9007FC2CD /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B9C0DF28E5E0A9007FC2CD /* ErrorView.swift */; };
+		98B9C0E228E5E0BF007FC2CD /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B9C0E128E5E0BF007FC2CD /* MovieDetailView.swift */; };
+		98B9C0E528E5E0F5007FC2CD /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 98B9C0E428E5E0F5007FC2CD /* URLImage */; };
+		98B9C0E728E5E0F5007FC2CD /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = 98B9C0E628E5E0F5007FC2CD /* URLImageStore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		98B9C0B528E5C93E007FC2CD /* VeoTrendingMoviesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeoTrendingMoviesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B9C0B828E5C93E007FC2CD /* VeoTrendingMoviesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeoTrendingMoviesAppApp.swift; sourceTree = "<group>"; };
-		98B9C0BA28E5C93E007FC2CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98B9C0BC28E5C940007FC2CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98B9C0BF28E5C940007FC2CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98B9C0C828E5D1E9007FC2CD /* TrendingMoviesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingMoviesResponse.swift; sourceTree = "<group>"; };
+		98B9C0CA28E5D224007FC2CD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		98B9C0CF28E5D27E007FC2CD /* TrendingMoviesEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingMoviesEndpoint.swift; sourceTree = "<group>"; };
+		98B9C0D228E5D2BB007FC2CD /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		98B9C0D528E5D2E6007FC2CD /* TrendingMoviesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingMoviesService.swift; sourceTree = "<group>"; };
+		98B9C0D828E5D318007FC2CD /* ResultState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultState.swift; sourceTree = "<group>"; };
+		98B9C0DB28E5D617007FC2CD /* TrendingMoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingMoviesViewModel.swift; sourceTree = "<group>"; };
+		98B9C0DD28E5E094007FC2CD /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
+		98B9C0DF28E5E0A9007FC2CD /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		98B9C0E128E5E0BF007FC2CD /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B9C0E728E5E0F5007FC2CD /* URLImageStore in Frameworks */,
+				98B9C0E528E5E0F5007FC2CD /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +73,14 @@
 		98B9C0B728E5C93E007FC2CD /* VeoTrendingMoviesApp */ = {
 			isa = PBXGroup;
 			children = (
+				98B9C0DA28E5D5F9007FC2CD /* ViewModel */,
+				98B9C0D728E5D307007FC2CD /* States */,
+				98B9C0D428E5D2CC007FC2CD /* Service */,
+				98B9C0D128E5D29F007FC2CD /* Error */,
+				98B9C0CE28E5D25E007FC2CD /* Endpoint */,
+				98B9C0C628E5D1C9007FC2CD /* Models */,
+				98B9C0C728E5D1CF007FC2CD /* Views */,
 				98B9C0B828E5C93E007FC2CD /* VeoTrendingMoviesAppApp.swift */,
-				98B9C0BA28E5C93E007FC2CD /* ContentView.swift */,
 				98B9C0BC28E5C940007FC2CD /* Assets.xcassets */,
 				98B9C0BE28E5C940007FC2CD /* Preview Content */,
 			);
@@ -65,6 +93,65 @@
 				98B9C0BF28E5C940007FC2CD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		98B9C0C628E5D1C9007FC2CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				98B9C0C828E5D1E9007FC2CD /* TrendingMoviesResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		98B9C0C728E5D1CF007FC2CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				98B9C0CA28E5D224007FC2CD /* HomeView.swift */,
+				98B9C0DD28E5E094007FC2CD /* MoviesView.swift */,
+				98B9C0DF28E5E0A9007FC2CD /* ErrorView.swift */,
+				98B9C0E128E5E0BF007FC2CD /* MovieDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		98B9C0CE28E5D25E007FC2CD /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				98B9C0CF28E5D27E007FC2CD /* TrendingMoviesEndpoint.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		98B9C0D128E5D29F007FC2CD /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				98B9C0D228E5D2BB007FC2CD /* APIError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		98B9C0D428E5D2CC007FC2CD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				98B9C0D528E5D2E6007FC2CD /* TrendingMoviesService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		98B9C0D728E5D307007FC2CD /* States */ = {
+			isa = PBXGroup;
+			children = (
+				98B9C0D828E5D318007FC2CD /* ResultState.swift */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
+		98B9C0DA28E5D5F9007FC2CD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				98B9C0DB28E5D617007FC2CD /* TrendingMoviesViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +170,10 @@
 			dependencies = (
 			);
 			name = VeoTrendingMoviesApp;
+			packageProductDependencies = (
+				98B9C0E428E5E0F5007FC2CD /* URLImage */,
+				98B9C0E628E5E0F5007FC2CD /* URLImageStore */,
+			);
 			productName = VeoTrendingMoviesApp;
 			productReference = 98B9C0B528E5C93E007FC2CD /* VeoTrendingMoviesApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +202,9 @@
 				Base,
 			);
 			mainGroup = 98B9C0AC28E5C93D007FC2CD;
+			packageReferences = (
+				98B9C0E328E5E0F5007FC2CD /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 98B9C0B628E5C93E007FC2CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +231,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98B9C0BB28E5C93E007FC2CD /* ContentView.swift in Sources */,
+				98B9C0D928E5D318007FC2CD /* ResultState.swift in Sources */,
+				98B9C0CB28E5D224007FC2CD /* HomeView.swift in Sources */,
+				98B9C0DC28E5D617007FC2CD /* TrendingMoviesViewModel.swift in Sources */,
 				98B9C0B928E5C93E007FC2CD /* VeoTrendingMoviesAppApp.swift in Sources */,
+				98B9C0D028E5D27E007FC2CD /* TrendingMoviesEndpoint.swift in Sources */,
+				98B9C0E028E5E0A9007FC2CD /* ErrorView.swift in Sources */,
+				98B9C0D628E5D2E6007FC2CD /* TrendingMoviesService.swift in Sources */,
+				98B9C0D328E5D2BB007FC2CD /* APIError.swift in Sources */,
+				98B9C0DE28E5E094007FC2CD /* MoviesView.swift in Sources */,
+				98B9C0C928E5D1E9007FC2CD /* TrendingMoviesResponse.swift in Sources */,
+				98B9C0E228E5E0BF007FC2CD /* MovieDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +442,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		98B9C0E328E5E0F5007FC2CD /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		98B9C0E428E5E0F5007FC2CD /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98B9C0E328E5E0F5007FC2CD /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		98B9C0E628E5E0F5007FC2CD /* URLImageStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98B9C0E328E5E0F5007FC2CD /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImageStore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 98B9C0AD28E5C93D007FC2CD /* Project object */;
 }

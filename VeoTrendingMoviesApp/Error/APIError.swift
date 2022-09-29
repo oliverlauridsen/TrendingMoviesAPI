@@ -13,7 +13,6 @@ enum APIError: Error {
     case unknown
 }
 
-// TODO: Research LocalizedError protocol
 extension APIError: LocalizedError {
     var errorDescription: String? {
         switch self {

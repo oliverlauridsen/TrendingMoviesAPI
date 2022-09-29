@@ -26,7 +26,7 @@ struct TrendingMoviesServiceImplementation: TrendingMoviesService {
         return URLSession
             // access the singleton "shared" from URLSession
             .shared
-            // What we get from combine framework, to listen to the result of the service TODO: Research a bit more
+            // What we get from combine framework, to listen to the result of the service
             .dataTaskPublisher(for: endpoint.urlRequest)
             // Receive on main thread, since the URLSession call defaults to the background asynchrounously
             .receive(on: DispatchQueue.main)
